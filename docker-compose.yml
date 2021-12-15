@@ -1,0 +1,5 @@
+version: '3'
+services:
+  nilesh:
+    build: ./
+    command: python3 docrun.py
